@@ -316,7 +316,6 @@ nav button a:hover{
 #find .search label{
     color: #250f0f;
     font-size: 1.2rem;
-    margin-right: 30px;
 }
 
 #find .search input,select{
@@ -561,7 +560,7 @@ nav button a:hover{
 /* Stories section */
 #stories{
     width: 100%;
-    height:600px;
+    height:650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -603,7 +602,6 @@ nav button a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    overflow: hidden;
 }
 #stories .storyimg .story:hover{
     cursor: pointer;
@@ -612,11 +610,15 @@ nav button a:hover{
 }
 #stories .storyimg .story{
     width: 313px;
-    height: 312px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    border: 7px solid #fff;
+    justify-content: center;
+    background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 #stories .storyimg .story .text{
     height: 100px;
@@ -890,6 +892,10 @@ nav button a:hover{
         flex-wrap: wrap;
         align-items: center;
     }
+    #find .search form{
+        padding-left: 30px;
+        align-items: center;
+    }
     #find .profile {
         width: 600px;
         height: 650px;
@@ -920,7 +926,7 @@ nav button a:hover{
         width: 600px;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     #footer .footerinfo h2{
         font-size: 1.2rem;
